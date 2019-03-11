@@ -1,0 +1,134 @@
+/*css reset*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*Mobile view*/
+
+*
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+}
+
+.container
+{
+    max-width: 45rem;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: darkolivegreen;
+    
+}
+
+/* open styling header tag */
+
+/*background image*/
+.image
+{
+    background-image: url("../images/food.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 340px;
+    width: 100%;   
+}
+
+/*styling the header*/
+header
+{
+    text-align: center;
+}
+
+/* header h1 tag */
+header h1
+{
+    position: relative;
+    top: 199px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/*header h5 tag*/
+header h5
+{
+    position: relative;
+    top: 219px;
+    font-size: 14px;
+}
+/* closing styling header tag */
+
+
+/*styling body tag - font*/
+body
+{
+    font-family: Helvetica, Arial, Helvetica Neue, sans-serif;
+    background-color: gainsboro; 
+}
+
+
+/*opening styling for section tag*/
+/*styling the section tag*/
+section
+{    
+    background-color: gainsboro;  
+    text-align: left;
+}
+
+/*hr tag color and line*/
+section hr
+{
+    border-top: 1px solid darkolivegreen;
+    opacity: 0.4;
+}
+
+/*entering the information in the fields*/
+input
+{
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+/*button tag*/
+#trigger-click
+{
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top:15px;
+    font-size: 14px;
+}
+/*closing styling for section tag*/
+
+
+/* opening styling footer */
+/*space for footer*/
+footer
+{
+    margin: 30px;
+    word-spacing: 20px;
+    text-align: center;
+}
+
+/*line above the footer*/
+footer hr
+{
+    opacity: 0.10;
+}
+
+/*footer display*/
+footer a
+{
+    color: darkolivegreen;
+    height:  10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/*footer display*/
+#display-data
+{
+    padding: 10px;
+    border-width: 1px;
+}
+/* closing styling footer */
